@@ -1,6 +1,7 @@
 export default function Background() {
   return (
     <div className="bg">
+      {/* <div className="w-full h-full bg-gradient-to-t from-indigo-500"></div> */}
       <div className="">
         <div className="tile top-left animate-opacity freq-5"></div>
         <div className="tile top-right animate-opacity freq-9"></div>
