@@ -8,39 +8,9 @@
 
 html,
 body {
-  color: #000;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
-
-img {
-  background: transparent;
-}
-
-h1,
-p {
-  margin-top: 0.333rem;
-  margin-bottom: 0.333rem;
 }
 
 .container {

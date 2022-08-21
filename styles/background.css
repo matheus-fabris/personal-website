@@ -1,28 +1,6 @@
-body {
-  margin: 0;
-  color: #000;
-  overflow: hidden;
-  color: #fff;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-img {
-  background: transparent;
-}
-
-h1,
-p {
-  margin-top: 0.333rem;
-  margin-bottom: 0.333rem;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @keyframes slide-transparency {
   0% {
