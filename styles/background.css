@@ -92,7 +92,6 @@ p {
   left: -50vw;
   top: -50vh;
   transform-origin: center;
-  transition: transform 0.1s ease-in-out;
 }
 
 .tile {
